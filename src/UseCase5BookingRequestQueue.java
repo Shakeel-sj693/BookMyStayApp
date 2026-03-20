@@ -26,11 +26,10 @@ public class UseCase5BookingRequestQueue {
             return roomType;
         }
 
-        @Override
-        public String toString() {
-            return "Reservation{guestName='" + guestName + potentially escaping problem here in older versions + "', roomType='" + roomType + "'}";
-        }
-    }
+      @Override
+public String toString() {
+    return "Reservation{guestName='" + guestName + "', roomType='" + roomType + "'}";
+}
 
     static final class BookingRequestQueue {
         private final Queue<Reservation> bookingQueue;
